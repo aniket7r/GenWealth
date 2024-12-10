@@ -1,0 +1,11 @@
+/* global.css */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Set Comfortaa as the default font for the entire body */
+body {
+  font-family: 'Comfortaa', cursive; /* Use cursive as a fallback */
+}
